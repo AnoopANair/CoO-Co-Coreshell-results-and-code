@@ -1,0 +1,18 @@
+# This is the material file   
+materials:num-materials=2 
+material[1]:material-name = "AFM" 
+material[1]:material-element = "Co"   
+material[1]:exchange-matrix[1] = -4.27e-22    
+material[1]:exchange-matrix[2] = 5.75e-21 
+material[1]:atomic-spin-moment = 2.55 !muB    
+material[1]:damping-constant = 1.0    
+material[1]:uniaxial-anisotropy-constant = 6.96e-24   
+material[2]:material-name = "FM"  
+material[2]:material-element = "O" 
+material[2]:exchange-matrix[1] = 5.75e-21 
+material[2]:exchange-matrix[2] = 5.75e-21 
+material[2]:atomic-spin-moment = 1.59 !muB    
+material[2]:damping-constant = 1.0    
+material[2]:uniaxial-anisotropy-constant = 2.98e-24   
+material[1]:core-shell-size = 1.0 
+material[2]:core-shell-size = 0.55556  

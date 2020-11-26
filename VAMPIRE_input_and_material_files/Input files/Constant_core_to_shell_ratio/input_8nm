@@ -1,0 +1,26 @@
+# This is the input file
+create:crystal-structure = fcc 
+create:sphere 
+dimensions:unit-cell-size = 3.524 !A 
+dimensions:system-size-x = 8.0 !nm 
+dimensions:system-size-y = 8.0 !nm 
+dimensions:system-size-z = 8.0 !nm 
+dimensions:particle-size = 8.0 !nm 
+material:file = Co.mat 
+sim:temperature = 300.0 
+sim:minimum-temperature=0 
+sim:maximum-temperature=2000 
+sim:temperature-increment=10 
+sim:time-steps-increment=1 
+sim:equilibration-time-steps:1000 
+sim:loop-time-steps=1000 
+sim:program = curie-temperature 
+sim:integrator =monte-carlo 
+output:real-time 
+output:temperature 
+output:magnetisation 
+output:magnetisation-length 
+output:mean-magnetisation-length 
+screen:temperature 
+screen:mean-magnetisation-length 
+config:atoms 
