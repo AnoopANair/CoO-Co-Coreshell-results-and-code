@@ -1,0 +1,8 @@
+&DOS
+ outdir='./outdir'
+ prefix='Co'
+ Emin= -6
+ Emax= 30
+ DeltaE=0.05
+ fildos='Co.dos'
+ /
